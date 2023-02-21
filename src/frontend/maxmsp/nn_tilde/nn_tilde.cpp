@@ -130,9 +130,7 @@ public:
         }
       }
       else
-      {
         cerr << "no corresponding method for " << attribute_name << endl;
-      }
       return {};
      }};
 };
